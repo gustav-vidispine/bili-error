@@ -1,0 +1,28 @@
+{
+  "name": "bili-error",
+  "version": "1.0",
+  "description": "Bili Unexpected token error",
+  "license": "MIT",
+  "main": "./dist/bili-error.js",
+  "module": "./dist/vbili-error.min.js",
+  "style": "./dist/bili-error.min.css",
+  "scripts": {
+    "watch": "bili --plugin eslint,vue --format es-min --watch",
+    "watch-umd": "bili --plugin eslint,vue --format umd --watch",
+    "build": "bili --plugin eslint,vue --format cjs,umd,umd-min,es-min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.vidispine.com:vdt-ui-components-ui.git"
+  },
+  "devDependencies": {
+    "bili": "^3.0.15",
+    "eslint-plugin-vue": "^4.4.0",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-vue": "^3.0.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}

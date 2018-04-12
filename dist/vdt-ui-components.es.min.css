@@ -1,0 +1,35 @@
+.vdt-search__wrapper[data-v-3d25ad66] {
+  width: 100%; }
+
+.vdt-search__form[data-v-3d25ad66] {
+  display: block;
+  position: relative; }
+
+.vdt-search__input[data-v-3d25ad66] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em 0.75em;
+  padding-right: 2rem;
+  background-color: #f3f3f3;
+  border: 2px solid #f3f3f3;
+  color: #333;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border 0.3s ease-out; }
+  .vdt-search__input[data-v-3d25ad66]:focus, .vdt-search__input[data-v-3d25ad66]:active {
+    outline: none;
+    border: 2px solid #64b5f6;
+    background-color: white; }
+
+.vdt-search__icon[data-v-3d25ad66] {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0.25rem;
+  right: 1rem;
+  height: 100%;
+  margin-bottom: 0; }
+  .vdt-search__icon .material-design-icon[data-v-3d25ad66] {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5); }
+
